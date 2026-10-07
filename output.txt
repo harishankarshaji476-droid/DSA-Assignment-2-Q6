@@ -1,0 +1,36 @@
+Adjacency Matrix:
+  A B C D E F
+A 0 1 1 0 0 0
+B 1 0 0 1 1 0
+C 1 0 0 0 0 1
+D 0 1 0 0 0 0
+E 0 1 0 0 0 1
+F 0 0 1 0 1 0
+
+Adjacency List:
+A -> B -> C
+B -> A -> D -> E
+C -> A -> F
+D -> B
+E -> B -> F
+F -> C -> E
+
+BFS using Adjacency Matrix: A B C D E F
+BFS using Adjacency List: A B C D E F
+
+DFS using Adjacency Matrix: A B D E F C
+DFS using Adjacency List: A B D E F C
+
+Vertex Search Operations:
+Target  Matrix  List
+A       1       1
+E       5       5
+F       6       6
+Z       6       6
+
+Edge Checking Operations:
+Edge  Matrix  List  Result
+A-B     1       1      Connected
+A-F     1       2      Not Connected
+E-F     1       2      Connected
+C-E     1       2      Not Connected
