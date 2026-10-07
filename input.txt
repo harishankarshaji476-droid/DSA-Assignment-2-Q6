@@ -1,0 +1,5 @@
+Vertices: A B C D E F
+Edges: A-B, A-C, B-D, B-E, C-F, E-F
+Traversal start vertex: A
+Search targets: A, E, F, Z
+Edge checks: A-B, A-F, E-F, C-E
